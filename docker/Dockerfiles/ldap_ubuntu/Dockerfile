@@ -8,7 +8,7 @@
 # Related: https://github.com/jgstew/tools/blob/master/docker/Dockerfiles/ldap_lam_ubuntu/Dockerfile
 ############################################################
 
-FROM ubuntu:latest
+FROM ubuntu:groovy-20210416
 
 RUN apt-get update && apt-get install -qq ldap-utils
 
