@@ -7,7 +7,7 @@
 # docker run -d -P --init bigfix_ubuntu
 ############################################################
 
-FROM ubuntu:latest
+FROM ubuntu:groovy-20210614
 
 RUN apt-get update
 RUN apt-get install wget -y
