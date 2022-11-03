@@ -7,7 +7,7 @@
 # docker run -d -P --init bigfix_ubuntu
 ############################################################
 
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 
 RUN apt-get update
 RUN apt-get install wget -y
