@@ -8,7 +8,7 @@
 # TODO: manage with bigfix
 ############################################################
 
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 RUN apt-get update
 RUN apt-get install wget -y
